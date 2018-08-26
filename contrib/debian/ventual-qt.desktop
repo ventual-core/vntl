@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Ventual
+Comment=Ventual P2P Cryptocurrency
+Comment[fr]=Ventual, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Ventual, eşten eşe kriptografik sanal para birimi
+Exec=ventual-qt %u
+Terminal=false
+Type=Application
+Icon=ventual128
+MimeType=x-scheme-handler/ventual;
+Categories=Office;Finance;

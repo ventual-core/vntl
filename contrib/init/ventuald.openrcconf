@@ -1,0 +1,26 @@
+# /etc/conf.d/ventuald: config file for /etc/init.d/ventuald
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/ventual/ventual.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/ventuald"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/ventuald.pid"
+
+# Where to write ventuald data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/ventuald"
+
+# User and group to own ventuald process
+#BITCOIND_USER="ventual"
+#BITCOIND_GROUP="ventual"
+
+# Path to ventuald executable
+#BITCOIND_BIN="/usr/bin/ventuald"
+
+# Nice value to run ventuald under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
